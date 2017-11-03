@@ -161,7 +161,7 @@ Several Bootstrap components utilize `z-index`, the CSS property that helps cont
 
 We don't encourage customization of these values; should you change one, you likely need to change them all.
 
-```scss
+{% highlight scss %}
 $zindex-dropdown:          1000 !default;
 $zindex-sticky:            1020 !default;
 $zindex-fixed:             1030 !default;
@@ -169,7 +169,7 @@ $zindex-modal-backdrop:    1040 !default;
 $zindex-modal:             1050 !default;
 $zindex-popover:           1060 !default;
 $zindex-tooltip:           1070 !default;
-```
+{% endhighlight %}
 
 Background elements—like the backdrops that allow click-dismissing—tend to reside on a lower `z-index`s, while navigation and popovers utilize higher `z-index`s to ensure they overlay surrounding content.
 
